@@ -8,7 +8,7 @@ Note:
 Summery:
 In this paper authors proposed a novel framework to minimize delay in a IoT enabled SDN edge network. They proposed a framework name DRESIN which minimizes the delay. They experimented it on Mininet emulator. They laveraged evolutionany game theory to minimize the delay. 
 
-**Hand written note:** [Notes on Delay aware resource orchestration for IoT enabled SDN.pdf](Notes%20on%20Delay%20aware%20resource%20orchestration%20for%20IoT%20enabled%20SDN.pdf)
+**Handwritten note:** [Notes on Delay aware resource orchestration for IoT enabled SDN.pdf](Notes%20on%20Delay%20aware%20resource%20orchestration%20for%20IoT%20enabled%20SDN.pdf)
 
 
 ## Date: 10.04.24
@@ -19,37 +19,37 @@ CBCT imaging: Cone Beam Computed Tomograph. It is used for scanning dental and f
 3-TECC Architecture: Three Tier Edge Cloud Continum. 
 IoMT: Internet of Medical Things
 FPGA: Field Programable Gate Array
-IRS: Image Reconstruction System. It is basically a High Power PC.
+IRS: Image Reconstruction System. It is basically a high-powered PC.
 
-Summary: CBCT scan capture 3D image. The image is either reconstructed at local mechine or in cloud. It propose a way to spread out the image processing algorithm from local to edge and cloud computing. 
+Summary: CBCT scan captures the 3D image. The image is either reconstructed at a local machine or in the cloud. It proposes a way to spread out the image processing algorithm from local to edge and cloud computing. 
 
-Gap: No numeric data to bacup the claim that this method improve processing and management. How much time it reduces? What do You mean by improving data management? Does it make the data more organized? If they implemented it in a real life scenario how the whole thing performed? Main issue is to reconstruct the image, why do we need the edge AI for?
+Gap: No numeric data to back up the claim that this method improves processing and management. How much time does it reduce? What do you mean by improving data management? Does it make the data more organized? If they implemented it in a real-life scenario, how would the whole thing perform? The main issue is to reconstruct the image. Why do we need the edge AI?
 
-- Here we are extending the image processing from local to the cloud. Do we even need this feature? Any hospital can afford a high computational PC. 700MB is it too large that we need the cloud?
+- Here we are extending the image processing from local to the cloud. Do we even need this feature? Any hospital can afford a high computational PC. 700MB is it too large for the cloud?
 
 
-### Title:Resource Slicing through Intelligent Orchestration of Energy-aware IoT services in Edge-Cloud Continuum
+### Title: Resource Slicing through Intelligent Orchestration of Energy-aware IoT Services in Edge-Cloud Continuum
 
 Terminology section:
 Network slicing in 5G: 
 Nanoservice: 
 
 Comments:
-To forecast the energy requirement you need energy to run the AI model. When using AI, does it reduces the overall energy consumption?
-What is the difference between a nanoservice and a microservise? Is it only terminology?
+To forecast the energy requirement, you need energy to run the AI model. When using AI, does it reduce the overall energy consumption?
+What is the difference between a nanoservice and a microservice? Is it only terminology?
 The resource slicing idea is not clear. It does not mention the exact form of resource it manages (bandwidth, energy, time). 
-In the figure it shows nanoservices being deployed in sensor type devices. Can we do that? How do we install these apps in those devices? 
+The figure shows nanoservices being deployed in sensor-type devices. Can we do that? How do we install these apps on those devices? 
 
 
-Summary: It just introduces the concept of resource slicing. The paper is very vegue about types of resources it slices, No data to prove that resource slicing is a desirable feature.
+Summary: It just introduces the concept of resource slicing. The paper is very vague about types of resources it slices. No data to prove that resource slicing is a desirable feature.
 
-### Title: Securing a contrained IoT systems: a lightweight machine learning approach for anomaly detection and prevention. 
-summary: This is an anomaly detection paper. Used other person's dataset for memory usage and consumption. Trained a few model on Edge Impulse website and then deployed it to arduino,raspberry pi. Model deployed on IoT, edge and cloud environment. 
+### Title: Securing constrained IoT systems: A lightweight machine learning approach for anomaly detection and prevention. 
+Summary: This is an anomaly detection paper. Used another person's dataset for memory usage and consumption. Trained a few models on the Edge Impulse website and then deployed them to Arduino and Raspberry Pi. Model deployed on IoT, edge, and cloud environment. 
 Model used: naive bayes, decision tree, random forest, kNN
 
 Comments: 
-- No statistics about the data is provided.
-- It claims to deploy the model on edge and cloud but there is no mention of in which environment the model was deployed.
+- No statistics about the data are provided.
+- It claims to deploy the model on edge and cloud, but there is no mention of in which environment the model was deployed.
 
 
 ### Title: KPIs for Evaluating the Feasibility of Private 5G Networks in Hospitals
@@ -72,9 +72,34 @@ In this paper, the author performed many tests and measurements on a private 5G 
 - What does it mean to run the video on a network?
 
 ## Date: 11.04.25
-### Title: 
+### Title: Weathering the reallocation storm: Large-Scale analysis of Edge Server Workload. 
+**Note:**
+- Superfluous: extra, redundant, surplus, excess. 
+- This paper studied load balancing/ workload balancing on edge servers.
+- Grid computing:
+- The author identified a phenomenon named reallocation storm, where reallocation triggers new reallocation.
+- A cloud uses three reallocation strategies.
+  - Proximity strategy: reallocate workload to the nearest ES (Edge Server).
+  - Bottom-up strategy: You have to do the bookkeeping for all the ESs in the network so that you can assign the workload to a server that has the lowest workload. This method can not minimize the latency.
+  - Random strategy: Randomly reallocating an ES.
+ 
+- Reallocation storm: Suppose there is a number of ES in a network. All of these ES have reached nearly to their capacity. In this situation, if there is any reallocation, there will be a butterfly effect. This is called the reallocation storm.
+- Vertical workload: Traffic coming from access point to the ES. The access point could be a router or a base station.
+- Horizontal workload: Traffic that is coming from the another adjacent ES. 
 
+**Summary:**
+The author identified a phenomenon called reallocation storm. He used the Wi-Fi data of panoulu, which covers the oulu city region and employs 20 ES. When all the servers are running nearly at full capacity, then the vertical connections are reallocated. During this time, horizontal connection/workload is refused. Edge server uses the cloud computing's workload management strategy. The author argues that these strategies are not good enough for the edge servers. He suggested that we should look for a new kind of strategy. He proposed that we can avoid reallocation by preemptively triggering reallocation. 
 
+**Research Direction:** We can develop a new strategy and test it on the edge.
+
+**Comment:**
+- They have a dataset that contains wifi network data of 47M connections with over 800 access points. How did the author find the phenomenon from the dataset?
+- Network topology is not available in the paper.
+- Statistics about the dataset are not enough.
+- The author divided the dataset into 80% for training and 20% for testing. However, he does not mention using any AI/ML model.
+- No description of simulation set up.
+- It seems the author just analyzed the dataset.
+- Why the author took different average time is not clear to me. 
 
 
 
