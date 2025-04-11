@@ -102,8 +102,20 @@ The author identified a phenomenon called reallocation storm. He used the Wi-Fi 
 - Why the author took different average time is not clear to me. 
 
 
+### Title: Cloud and Edge Computation Offloading for Latency-Limited Services
 
+**Notes:**
+- MEC: Multi-access Edge Computing.
+- NP-heard:
+- The author developed an algorithm for offloading tasks from the edge server to the cloud server. The algorithm was simulated and compared with the baseline and optimal solution. 
 
+**Summary:**
+The main idea is to develop and test the resource allocation algorithm. [*A revisit is required to understand what the algorithm does.*] 
+**Comments:**
+- MEC will be part of the 5G network.
+- No mention of the baseline algorithm.
+- The algorithm is well defined and notation heavy. I didn't inspect the algorithm. I needed some time to examine the algorithm.
+- Topology is well defined. 
 
 
 
