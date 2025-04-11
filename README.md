@@ -8,6 +8,9 @@ Note:
 Summery:
 In this paper authors proposed a novel framework to minimize delay in a IoT enabled SDN edge network. They proposed a framework name DRESIN which minimizes the delay. They experimented it on Mininet emulator. They laveraged evolutionany game theory to minimize the delay. 
 
+**Hand written note:** [Notes on Delay aware resource orchestration for IoT enabled SDN.pdf](Notes%20on%20Delay%20aware%20resource%20orchestration%20for%20IoT%20enabled%20SDN.pdf)
+
+
 ## Date: 10.04.24
 
 ### Title: From Technical Prerequisites to Improved Care: Distributed Edge AI for Tomographic Imaging
