@@ -146,7 +146,19 @@ We can record the speed of the UE. If it is a standstill, we don't need to migra
 - The introduction section doesn't introduce the problem.
 - Testbed setup is not clear. It is not clear how data passes from one node to another. The mechanism for the handover and docker app migration decision-making process is not clear. 
 
+### Title: Edge computing server placement with capacitated location allocation.
+**Note:**
+- The PanOulu Wifi dataset needs to be inspected.
 
+**Summary:** 
+The author has developed a novel algorithm called PACK. It takes into account parameters such as workload, computing capacity, performance metrics, latency, number of edge servers, co-location server and APs, workload allocation, location preference, and reliability. It provides an optimized location to place the edge server as well as an optimal method to allocate other resources to minimize the latency within the acceptable range. 
+
+**Idea:**
+- Instead of using historical data, can we take the population data of that particular area into account? Can we calculate population variation/flux to predict how many resources we need at a time in a worst-case scenario?
+- Can we deploy a central edge server to facilitate the computational offloading instead of distributing the load among other co-servers?
+
+**Comments:**
+- No statistics about the dataset. No link to the dataset.
 
 
 
