@@ -149,6 +149,7 @@ We can record the speed of the UE. If it is a standstill, we don't need to migra
 ### Title: Edge computing server placement with capacitated location allocation.
 **Note:**
 - The PanOulu Wifi dataset needs to be inspected.
+- Github R based code link: [Github Ripo](https://github.com/terolahderanta/rpack)
 
 **Summary:** 
 The author has developed a novel algorithm called PACK. It takes into account parameters such as workload, computing capacity, performance metrics, latency, number of edge servers, co-location server and APs, workload allocation, location preference, and reliability. It provides an optimized location to place the edge server as well as an optimal method to allocate other resources to minimize the latency within the acceptable range. 
