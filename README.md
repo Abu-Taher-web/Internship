@@ -117,6 +117,35 @@ The main idea is to develop and test the resource allocation algorithm. [*A revi
 - The algorithm is well defined and notation heavy. I didn't inspect the algorithm. I needed some time to examine the algorithm.
 - Topology is well defined. 
 
+## Date: 12.04.25
+### Title: SDN Enhanced Resource Orchestration of Containerized Edge Applications for Industrial IoT
+
+**Note:**
+- A MEC (Multi Access Edge Computing) contains programs that automate resource allocation. These programs could be called Agents.
+- SDN switch:
+- SDN controller:
+- Edge Server:
+- OpenDaylight:
+- PowerAPI:
+- HWPC:
+- RAPL
+- GO
+- FFmpeg:
+- Mininet
+
+**Summary:**
+When a UE moves from one MEC to another MEC, docker will replicate or migrate the MEC application to the new MEC application. In this paper, the author measured the amount of delay it introduces and the power consumption for such a task. 
+**Research Idea:** 
+We can record the speed of the UE. If it is a standstill, we don't need to migrate the application from one MEC to another. But if the UE is on the run, based on its speed, we can migrate the app to the next two or three MEC so that when the UE handover happens, the UE can get the service without any delay. 
+
+**Comments:**
+- Docker and Kubernetes take a significant amount of space on a hard disk. Is it a good idea to put them on the edge server?
+- The abstract and the conclusion are not well written. I did not understand what problem the author was addressing.
+- In the introduction section, it mentions the requirement of software processes being migrated between MECs. Is it possible because each process has its own state? If it is stopped, then it will lose all the processed data/state.
+- It mentions offloading tasks to a UE. Is it possible? UE has little processing capability.
+- The introduction section doesn't introduce the problem.
+- Testbed setup is not clear. It is not clear how data passes from one node to another. The mechanism for the handover and docker app migration decision-making process is not clear. 
+
 
 
 
