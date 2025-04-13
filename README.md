@@ -1,5 +1,5 @@
 ## Date: 09.04.25
-### Title:  Delay- Aware Dynamic Resource Orchestration for IoT- Enabled Software- Defined Edge Networks
+### 1.  Delay- Aware Dynamic Resource Orchestration for IoT- Enabled Software- Defined Edge Networks
 
 Note: 
 1. I understand SDN and Mininet: https://youtu.be/DiChnu_PAzA?si=guJCo5Gabqr8Mw9z, https://en.wikipedia.org/wiki/Software-defined_networking
@@ -13,7 +13,7 @@ In this paper authors proposed a novel framework to minimize delay in a IoT enab
 
 ## Date: 10.04.24
 
-### Title: From Technical Prerequisites to Improved Care: Distributed Edge AI for Tomographic Imaging
+### 2. From Technical Prerequisites to Improved Care: Distributed Edge AI for Tomographic Imaging
 
 CBCT imaging: Cone Beam Computed Tomograph. It is used for scanning dental and facial xray. Create 3D image.
 3-TECC Architecture: Three Tier Edge Cloud Continum. 
@@ -28,7 +28,7 @@ Gap: No numeric data to back up the claim that this method improves processing a
 - Here we are extending the image processing from local to the cloud. Do we even need this feature? Any hospital can afford a high computational PC. 700MB is it too large for the cloud?
 
 
-### Title: Resource Slicing through Intelligent Orchestration of Energy-aware IoT Services in Edge-Cloud Continuum
+### 3. Resource Slicing through Intelligent Orchestration of Energy-aware IoT Services in Edge-Cloud Continuum
 
 Terminology section:
 Network slicing in 5G: 
@@ -37,13 +37,13 @@ Nanoservice:
 Comments:
 To forecast the energy requirement, you need energy to run the AI model. When using AI, does it reduce the overall energy consumption?
 What is the difference between a nanoservice and a microservice? Is it only terminology?
-The resource slicing idea is not clear. It does not mention the exact form of resource it manages (bandwidth, energy, time). 
+The resource-slicing idea is not clear. It does not mention the exact form of resource it manages (bandwidth, energy, time). 
 The figure shows nanoservices being deployed in sensor-type devices. Can we do that? How do we install these apps on those devices? 
 
 
 Summary: It just introduces the concept of resource slicing. The paper is very vague about types of resources it slices. No data to prove that resource slicing is a desirable feature.
 
-### Title: Securing constrained IoT systems: A lightweight machine learning approach for anomaly detection and prevention. 
+### 4. Securing constrained IoT systems: A lightweight machine learning approach for anomaly detection and prevention. 
 Summary: This is an anomaly detection paper. Used another person's dataset for memory usage and consumption. Trained a few models on the Edge Impulse website and then deployed them to Arduino and Raspberry Pi. Model deployed on IoT, edge, and cloud environment. 
 Model used: naive bayes, decision tree, random forest, kNN
 
@@ -52,7 +52,7 @@ Comments:
 - It claims to deploy the model on edge and cloud, but there is no mention of in which environment the model was deployed.
 
 
-### Title: KPIs for Evaluating the Feasibility of Private 5G Networks in Hospitals
+### 5. KPIs for Evaluating the Feasibility of Private 5G Networks in Hospitals
 **Note**:
 - Private 5G network: The main idea is that each institution or use case will have its dedicated network, which will be connected to the external big network. 
 - iperf client and server model: iperf is an open-source network testing tool that measures the performance of a network link.
@@ -72,7 +72,7 @@ In this paper, the author performed many tests and measurements on a private 5G 
 - What does it mean to run the video on a network?
 
 ## Date: 11.04.25
-### Title: Weathering the reallocation storm: Large-Scale analysis of Edge Server Workload. 
+### 6. Weathering the reallocation storm: Large-Scale analysis of Edge Server Workload. 
 **Note:**
 - Superfluous: extra, redundant, surplus, excess. 
 - This paper studied load balancing/ workload balancing on edge servers.
@@ -102,7 +102,7 @@ The author identified a phenomenon called reallocation storm. He used the Wi-Fi 
 - Why the author took different average time is not clear to me. 
 
 
-### Title: Cloud and Edge Computation Offloading for Latency-Limited Services
+### 7. Cloud and Edge Computation Offloading for Latency-Limited Services
 
 **Notes:**
 - MEC: Multi-access Edge Computing.
@@ -118,7 +118,7 @@ The main idea is to develop and test the resource allocation algorithm. [*A revi
 - Topology is well defined. 
 
 ## Date: 12.04.25
-### Title: SDN Enhanced Resource Orchestration of Containerized Edge Applications for Industrial IoT
+### 8. SDN Enhanced Resource Orchestration of Containerized Edge Applications for Industrial IoT
 
 **Note:**
 - A MEC (Multi Access Edge Computing) contains programs that automate resource allocation. These programs could be called Agents.
@@ -146,7 +146,7 @@ We can record the speed of the UE. If it is a standstill, we don't need to migra
 - The introduction section doesn't introduce the problem.
 - Testbed setup is not clear. It is not clear how data passes from one node to another. The mechanism for the handover and docker app migration decision-making process is not clear. 
 
-### Title: Edge computing server placement with capacitated location allocation.
+### 9. Edge computing server placement with capacitated location allocation.
 **Note:**
 - The PanOulu Wifi dataset needs to be inspected.
 - Github R based code link: [Github Ripo](https://github.com/terolahderanta/rpack)
@@ -162,7 +162,7 @@ The author has developed a novel algorithm called PACK. It takes into account pa
 - No statistics about the dataset. No link to the dataset.
 
 ## Date: 13.04.25
-### 1. SDN-enabled resource orchestration for industrial IoT in collaborative edge cloud networks.
+### 10. SDN-enabled resource orchestration for industrial IoT in collaborative edge cloud networks.
 **Notes:**
 - Service level agreement:
 - Constrained satisfaction problem:
@@ -181,7 +181,7 @@ The author made a topology in a simulation software and then tested his ideas. T
 **Comments:**
 - IoT has a heterogenous nature, but I don't think it is unpredictable.
 
-### 2. Reinforcement Learning based cloud and edge resource allocation for real-time telemedicine.
+### 11. Reinforcement Learning based cloud and edge resource allocation for real-time telemedicine.
 **Notes:**
 - Q-learning:
 - Reinforecemnt learning:
@@ -198,7 +198,7 @@ The author trained a Q-learning reinforcement learning algorithm for resource al
 
 **Idea:**
 
-### 3. Securing edge services for future smart healthcare and industrial IoT application
+### 12. Securing edge services for future smart healthcare and industrial IoT application
 **Notes:**
 - The idea of the 'Naked World' or Nearable device is new to me.
 
@@ -211,7 +211,9 @@ The author envisioned a healthcare system where a person would go for a checkup.
 
 **Idea:**
 
-### 3.  
+## Date: 13.04.25
+
+### 13.  
 **Notes:**
 
 
