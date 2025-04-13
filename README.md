@@ -162,7 +162,7 @@ The author has developed a novel algorithm called PACK. It takes into account pa
 - No statistics about the dataset. No link to the dataset.
 
 ## Date: 13.04.25
-### Title: SDN enhanced resource orchestration for industrial IoT in collaborative edge cloud networks.
+### Title: SDN-enabled resource orchestration for industrial IoT in collaborative edge cloud networks.
 **Notes:**
 - Service level agreement:
 - Constrained satisfaction problem:
