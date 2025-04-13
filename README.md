@@ -198,19 +198,30 @@ The author trained a Q-learning reinforcement learning algorithm for resource al
 
 **Idea:**
 
-### Title: 
+### 3. Securing edge services for future smart healthcare and industrial IoT application
 **Notes:**
--
+- The idea of the 'Naked World' or Nearable device is new to me.
+
+**Summary:**
+The author envisioned a healthcare system where a person would go for a checkup. He would be able to access the machines using his biometric identity. To enable this, he proposed to use three key technologies which are IoT, edge, and blockchain technology. In his thesis, he worked on three aspects of the futueristic hospital, such as biometric system, mechanism to add node to the systems, and blockchain + edge computing for ensuring low latency and trust on the system. 
+
+**Comments:**
+- It is a very good paper. It provides network topology and simply describes the main ideas.
+- It is just a description of the whole thesis work. 
+
+**Idea:**
+
+### 3.  
+**Notes:**
+
 
 **Summary:**
 
 
 **Comments:**
--
+
 
 **Idea:**
-
-
 
 
 
