@@ -161,6 +161,78 @@ The author has developed a novel algorithm called PACK. It takes into account pa
 **Comments:**
 - No statistics about the dataset. No link to the dataset.
 
+## Date: 13.04.25
+### Title: SDN enhanced resource orchestration for industrial IoT in collaborative edge cloud networks.
+**Notes:**
+- Service level agreement:
+- Constrained satisfaction problem:
+- ROI: 
+- Savile Row:
+- Essence prime:
+- HVAC: Heating, Ventilation, and air conditioning. 
+- NP hard optimization problems are solved using prime essense language.
+- CloudSimDN and PureEdgeSim are simulation software
+- The solver takes 0.47 to 0.5 ms to solve the constrained problem.
+- The resource orchestration improves 4% task success.
+
+**Summary:**
+The author made a topology in a simulation software and then tested his ideas. This paper proposes a resource allocation method in two steps. In the first step, you have to identify the number of edge servers you would like to deploy, what kind of application you would run on the network, etc. You have to formulate a constrained optimization problem. After solving it using the solver (Essense Prime language), SDN will assign the resources to each edge server. In this way, resource utilization will be efficient. 
+
+**Comments:**
+- IoT has a heterogenous nature, but I don't think it is unpredictable.
+
+### Title: 
+**Notes:**
+-
+
+**Summary:**
+
+
+**Comments:**
+-
+
+**Idea:**
+
+### Title: 
+**Notes:**
+-
+
+**Summary:**
+
+
+**Comments:**
+-
+
+**Idea:**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
