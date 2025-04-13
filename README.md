@@ -162,7 +162,7 @@ The author has developed a novel algorithm called PACK. It takes into account pa
 - No statistics about the dataset. No link to the dataset.
 
 ## Date: 13.04.25
-### Title: SDN-enabled resource orchestration for industrial IoT in collaborative edge cloud networks.
+### 1. SDN-enabled resource orchestration for industrial IoT in collaborative edge cloud networks.
 **Notes:**
 - Service level agreement:
 - Constrained satisfaction problem:
@@ -181,15 +181,20 @@ The author made a topology in a simulation software and then tested his ideas. T
 **Comments:**
 - IoT has a heterogenous nature, but I don't think it is unpredictable.
 
-### Title: 
+### 2. Reinforcement Learning based cloud and edge resource allocation for real-time telemedicine.
 **Notes:**
--
+- Q-learning:
+- Reinforecemnt learning:
 
 **Summary:**
+The author trained a Q-learning reinforcement learning algorithm for resource allocation. He showed that using this method improves drop rates. It is not mentioned whether it decreases the latency. 
 
-
-**Comments:**
--
+**Comments**
+- In the introduction, instead of introducing the problem, the author talked about kind of related work. A graph war is required to better understand the scenario in which the author is trying to work.
+- Just developed a reinforcement learning algorithm in a simulation and then tested it.
+- How the author connected the algorithm with the resource allocation simulation is not clear.
+- How much time does the algorithm take to predict the next MEC?
+- It says the model interacts with the system. It is not clear to me how exactly it interacts with the system. There are no model parameters mentioned. 
 
 **Idea:**
 
