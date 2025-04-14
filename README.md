@@ -203,7 +203,7 @@ The author trained a Q-learning reinforcement learning algorithm for resource al
 - The idea of the 'Naked World' or Nearable device is new to me.
 
 **Summary:**
-The author envisioned a healthcare system where a person would go for a checkup. He would be able to access the machines using his biometric identity. To enable this, he proposed to use three key technologies which are IoT, edge, and blockchain technology. In his thesis, he worked on three aspects of the futueristic hospital, such as biometric system, mechanism to add node to the systems, and blockchain + edge computing for ensuring low latency and trust on the system. 
+The author envisioned a healthcare system where a person would go for a checkup. He would be able to access the machines using his biometric identity. To enable this, he proposed to use three key technologies: IoT, edge, and blockchain technology. In his thesis, he worked on three aspects of the futueristic hospital, such as biometric system, mechanism to add node to the systems, and blockchain + edge computing for ensuring low latency and trust on the system. 
 
 **Comments:**
 - It is a very good paper. It provides network topology and simply describes the main ideas.
@@ -228,14 +228,47 @@ This is not a real research paper. It is more like a proposal for future work.
 - I need to interact with the simulation software to better understand how these research works are carried out using them. 
 
 **Summary:**
-This is a proposal type paper. It focuses on data management and distributed computing. For the data management, the author wants to create a distributed system to host the data. This data could be various types. After hosting the data on resource-constrained nodes, the  author wants to leverage that data to train a federated learning AI. In federated learning, a model is distributed on different nodes. Each node sees a part of the data, and it is trained using those data. After the training period, the learning is aggregated to a global model.  
+This is a proposal-type paper. It focuses on data management and distributed computing. For the data management, the author wants to create a distributed system to host the data. This data could be various types. After hosting the data on resource-constrained nodes, the  author wants to leverage that data to train a federated learning AI. In federated learning, a model is distributed on different nodes. Each node sees a part of the data, and it is trained using those data. After the training period, the learning is aggregated to a global model.  
 
 **Comments:**
 - I know the concepts of reinforcement learning and federated learning, but I haven't used them. I need to try them first. 
 
 **Idea:**
 
-### 15. 
+### 15. Energy profiling and analysis of 5G private networks: evaluating energy consumption patterns.
+**Notes:**
+The OAI Box contains two things - CN5G and gNB
+- USRP B210: It is a radio unit of gNB
+- Netio PowerBox 4KF: Software to measure energy. 
+
+**Summary:**
+Energy profiling is important to understand how a network consumes energy. This data helps us to optimize the energy cost. In this paper, the author showed an experimental setup and recorded network energy consumption patterns at various points. 
+
+**Comments:**
+- Good diagram of the experimental setup. It would be better if the author described the data communication between the nodes.
+- 
+
+**Idea:**
+
+### 17. Semantic slicing across the distributed intelligent 6G wireless network.
+**Notes:**
+- Cyber-physical device:
+- Data slicing: It is like filtering the data before sending it anywhere. The filtering could be based on time frame, location, or any other criteria.
+- AI model slicing: This is equivalent to federated learning, which means a model will be split into multiple nodes, and each part of the model will be trained based on local data. After that, the knowledge will be shared with the global system.
+- Network slicing: It is a core concept of 5G. Network slicing means customizing or reconfiguring a network system for a particular use case. For example, a hospital has a different requirement than a university 5G system. So, the network resources, such as bandwidth, QoS, latency, and services, will be customized for each case.
+- Resource access slicing: Dynamically allocating and managing access to multiple resources within a network. 
+- Sensor slicing: Suppose there is a traffic camera. This traffic camera captures many important information. Police, municipalities, and road construction engineers can all get the data from the same camera without the need to install another camera. All of them will get the data they need without interfering with others' data acquisition. This is called sensor slicing. 
+
+**Summary:**
+Semantic means meaning. So, semantic slicing means dividing something based on some meaning. In this paper, the slicing starts from the sensors and propagates to the cloud level. The idea is that some AI model will first analyze the data and then keep only the necessary data. This way, the bandwidth usage will be efficient. We don't need to send all the data to the cloud. As we are using AI and based on the analysis, we are only keeping the data that is important; this is called meaningful acquisition of data, or semantic slicing. However, this concept is not only limited to data slicing. You can refer to the note section, where I mentioned other slicing concepts. 
+
+**Comments**
+- This paper only introduces the concept called 'semantic slicing'
+
+**Idea:**
+
+
+### 18. 
 **Notes:**
 
 
@@ -246,21 +279,6 @@ This is a proposal type paper. It focuses on data management and distributed com
 
 
 **Idea:**
-
-### 16. 
-**Notes:**
-
-
-**Summary:**
-
-
-**Comments:**
-
-
-**Idea:**
-
-
-
 
 
 
