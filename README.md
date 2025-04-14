@@ -250,7 +250,7 @@ Energy profiling is important to understand how a network consumes energy. This 
 
 **Idea:**
 
-### 17. Semantic slicing across the distributed intelligent 6G wireless network.
+### 16. Semantic slicing across the distributed intelligent 6G wireless network.
 **Notes:**
 - Cyber-physical device:
 - Data slicing: It is like filtering the data before sending it anywhere. The filtering could be based on time frame, location, or any other criteria.
@@ -264,11 +264,12 @@ Semantic means meaning. So, semantic slicing means dividing something based on s
 
 **Comments**
 - This paper only introduces the concept called 'semantic slicing'
+- There is no concrete data or analysis about whether this slicing is good or bad.
 
-**Idea:**
+**Research questions:**
+- Are there any quantitative analyses of this method? If not, we can try. 
 
-
-### 18. 
+### 17. 
 **Notes:**
 
 
