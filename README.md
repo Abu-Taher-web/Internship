@@ -211,9 +211,31 @@ The author envisioned a healthcare system where a person would go for a checkup.
 
 **Idea:**
 
-## Date: 13.04.25
+## Date: 14.04.25
 
-### 13.  
+### 13. Resource-aware orchestration of IoT application in edge cloud continuum with 6G  
+**Note:**
+- 6G architecture:
+  
+**Summary:**
+This is not a real research paper. It is more like a proposal for future work.
+- The author wants to deploy IoT apps in a way that fulfills some system requirements. These system requirements include CPU, GPU, RAM, Disk, energy efficiency, low latency, and high bandwidth. This research will be carried out in simulation software, for example, PureEdgeSim, CloudSim, iFogSim, etc.
+
+### 14. AI-driven data management on distributed computing for digital healthcare.
+**Notes:**
+- Reinforcement learning:
+- Federated learning:
+- I need to interact with the simulation software to better understand how these research works are carried out using them. 
+
+**Summary:**
+This is a proposal type paper. It focuses on data management and distributed computing. For the data management, the author wants to create a distributed system to host the data. This data could be various types. After hosting the data on resource-constrained nodes, the  author wants to leverage that data to train a federated learning AI. In federated learning, a model is distributed on different nodes. Each node sees a part of the data, and it is trained using those data. After the training period, the learning is aggregated to a global model.  
+
+**Comments:**
+- I know the concepts of reinforcement learning and federated learning, but I haven't used them. I need to try them first. 
+
+**Idea:**
+
+### 15. 
 **Notes:**
 
 
@@ -225,11 +247,17 @@ The author envisioned a healthcare system where a person would go for a checkup.
 
 **Idea:**
 
+### 16. 
+**Notes:**
 
 
+**Summary:**
 
 
+**Comments:**
 
+
+**Idea:**
 
 
 
