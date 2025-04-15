@@ -270,7 +270,7 @@ Semantic means meaning. So, semantic slicing means dividing something based on s
 - Are there any quantitative analyses of this method? If not, we can try. 
 
 ## Date: 15.04.25
-### 17. 
+### 17. Distributed network and service architecture for future digital healthcare.
 **Notes:**
 - Serverless edge computing model
 - Docker swarm, Kubernetes
@@ -278,6 +278,7 @@ Semantic means meaning. So, semantic slicing means dividing something based on s
 - FaaS: It is a small logical units that become alive wen needed. They are of small sizes and usually runs for a short period of time. It does not require a dedicated server. It enables serverless computing.
 - Nanoservices: The processing task is split into smaller pieces and deployed to IoT devices in an efficient manner this is called nanoservice.
 - Latency could be of two types: 1. Computation latency 2. communication latency
+
 **Summary:**
 This paper is the summary of four papers of this group. The author proposed a three tier edge architecture which extented the cloud computing near to the user. It adds two additional hops for data processing. One hop is the edge server, another hop is the local edge device. When we are bringing computation to the local level we will encounter many issues and question. First question would be what computation should we do where? This problem is solved by dividing the whole task into three smaller part based on the computational capacity of each layer. For example the raspberry Pi could filter out the sensor data. MEC could aggregate the data and provide realtime feedback such as if the patient having any heart attack right now. Then the cloud could be used for storing the data and maybe we can perform annual analysis of health data from there. The Raspberry Pi is very important. Instead of just installing one fixed application to it, we can do it dinamically. For example a scenario may arise such that we need to add an extra sensor to a patient. In that case we need to collect the data from the patient and perform a light weight filtering. As the sensor could provide different kind of data, we need different application to handle that. This new apps could be dinamically installed to it by MEC. Let's say all of these works. Now we need to ensure security. For this purpose the author propose to use blockchain. Virtualization and blockchain introduces some dealy/latency. However author said it is feasible to develop such a three tier system. 
 
