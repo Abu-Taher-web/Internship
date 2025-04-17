@@ -290,11 +290,23 @@ This paper is the summary of four papers of this group. The author proposed a th
 
 **Idea:**
 
+## Date: 17.04.25 
+### Keyword: Microservice orchestration, distributed microservice architecture, nanoservice architecture, resource-aware microservice orchestrator. E-Ware, Tomohead. Related paper, project, demos.
+### 18. Title: Microservice Orchestration for Process Control in Industry 4.0 
+**Notes**
+- The author used the Molecular framework from JavaScript to develop the microservices.
+- There are two types of orchestration: 1. Orchestration (Central master service works along with slave services. All communication passes through the Transporter) and 2. Choreograph (It is like a ring topology. One server passes the task/information to the next one)
+
+**Summary**:
+In this paper author created four microservices and isntalled them in two Raspberry Pi to control a industrial processing mechine. The mechine has pump and water vulbs. Microservices collects information from the sensors connected to the vulbs and send to the Raspberry Pi. 
+
+**Comments**:
+- It is a static installation system. It doesn't dynamically deploy the service.
+- This is a good use case-based analysis. 
 
 
-
-
-
+### 19. Title: Beethoven: An Event-Driven Lightweight Platform for Microservice Orchestration
+**Summary**: This paper proposes a platform called Beethoven for rochestration. When orchestrating microservice there are challenges related to scaling and communication between each microservices. 
 
 
 
