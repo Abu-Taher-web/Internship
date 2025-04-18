@@ -309,18 +309,60 @@ In this paper author created four microservices and isntalled them in two Raspbe
 **Summary**: This paper proposes a platform called Beethoven for rochestration. When orchestrating microservice there are challenges related to scaling and communication between each microservices. 
 
 
+## Date: 18.04.25
+### 20. Title: A systematic mapping study in microservice architecture.
+**Summary**: This paper is a review articles that connect many papers related to microservices. There are some papers which evaluation types, others are solution, validation experience report and opinior types papers. 
+
+### 21. Title: The nanoservices framework: co-locating microservices in the cloud edge continuum.
+**Summary**: This paper introduces a framework on how to combine multiple microservices to reduce the overall application size. It makes the microservices lightweight. Authors used golang to code the framework which automatically take care of creating nanoservices out of microservices.
+
+**Comments**:
+The name should be microservice because it is just a group of microservices.
+
+### 22. Title: A cloud native approach for orchestrating 6G-enabled services at the computing continuum.
+**Notes**:
+- K3, K8 cluster:
+- SLO: service level objectives
+- Multicluster deployment: centralized approach. Technologies should have access to the resources regardless of their owner.
+- Federated deployment: Combining resources from different ownership.
+- There are three types of resource management: 1. Centralized (One central server keeps track of the servers) 2. Hierarchical
+
+**Testbed**:
+- Two OpenStack VMs in two Intel Xeon Silver 4110 bare metal servers. One server consists of 16 vCPU, 16GiB RAM. Second k3 cluster is consist of 4 vCPU and 8GiB RAM. Karmada management system was used to coordinate between clusters. Prometheus was used to get the realtime data about the server. 
+
+**Summary**:
+Author proposed an architecture which depicts how a multicluster could be managed and orchestrated based on dynamic requirements. Author used reinforcement learning to translate the service intent into planned implementation.
+
+**Comments**:
+- This is part of a big project. Project links: [Application](https://gitlab.com/netmode/6g-latency-sensitive-service), [Orchestration](https://gitlab.com/netmode/hexa-service-orchestration)
+- This is a project based report.
 
 
+### 23. Title: Enhanced Particle Swarm Optimisation and Multi-Objective Optimization for the Orchestration of Edge Cloud Clusters
+**Notes**:
+- Swarm:
+- Swarm intelligence
+- Particle swarm optimization
+- Multi-object optimization:
+
+**Summary**:
+This paper uses a particle swarm intelligence algorithm with multi-object optimization for offloading and load balancing. Avoid centralized control.
+
+**Comments**:
+- Hard to understand. A lot of algorithms. Short paper.
+- It was a Java-based implementation.
+- Algorithm-based paper. No implementation architecture. No testbed description.
+- Everything happens within the cloud. No edge orchestration.
 
 
+### 24. Title: 
+**Notes**:
+- Tool used: Personal windows PC, VM, Mininet, SDN (Opendaylight), Kubernetes, 
+
+**Summary**:
 
 
-
-
-
-
-
-
+**Comments**:
 
 
 
