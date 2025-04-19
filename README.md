@@ -270,7 +270,7 @@ Semantic means meaning. So, semantic slicing means dividing something based on s
 - Are there any quantitative analyses of this method? If not, we can try. 
 
 ## Date: 15.04.25
-### 17. 
+### 17. Distributed network and service architecture for future digital healthcare.
 **Notes:**
 - Serverless edge computing model
 - Docker swarm, Kubernetes
@@ -278,6 +278,7 @@ Semantic means meaning. So, semantic slicing means dividing something based on s
 - FaaS: It is a small logical units that become alive wen needed. They are of small sizes and usually runs for a short period of time. It does not require a dedicated server. It enables serverless computing.
 - Nanoservices: The processing task is split into smaller pieces and deployed to IoT devices in an efficient manner this is called nanoservice.
 - Latency could be of two types: 1. Computation latency 2. communication latency
+
 **Summary:**
 This paper is the summary of four papers of this group. The author proposed a three tier edge architecture which extented the cloud computing near to the user. It adds two additional hops for data processing. One hop is the edge server, another hop is the local edge device. When we are bringing computation to the local level we will encounter many issues and question. First question would be what computation should we do where? This problem is solved by dividing the whole task into three smaller part based on the computational capacity of each layer. For example the raspberry Pi could filter out the sensor data. MEC could aggregate the data and provide realtime feedback such as if the patient having any heart attack right now. Then the cloud could be used for storing the data and maybe we can perform annual analysis of health data from there. The Raspberry Pi is very important. Instead of just installing one fixed application to it, we can do it dinamically. For example a scenario may arise such that we need to add an extra sensor to a patient. In that case we need to collect the data from the patient and perform a light weight filtering. As the sensor could provide different kind of data, we need different application to handle that. This new apps could be dinamically installed to it by MEC. Let's say all of these works. Now we need to ensure security. For this purpose the author propose to use blockchain. Virtualization and blockchain introduces some dealy/latency. However author said it is feasible to develop such a three tier system. 
 
@@ -289,25 +290,79 @@ This paper is the summary of four papers of this group. The author proposed a th
 
 **Idea:**
 
+## Date: 17.04.25 
+### Keyword: Microservice orchestration, distributed microservice architecture, nanoservice architecture, resource-aware microservice orchestrator. E-Ware, Tomohead. Related paper, project, demos.
+### 18. Title: Microservice Orchestration for Process Control in Industry 4.0 
+**Notes**
+- The author used the Molecular framework from JavaScript to develop the microservices.
+- There are two types of orchestration: 1. Orchestration (Central master service works along with slave services. All communication passes through the Transporter) and 2. Choreograph (It is like a ring topology. One server passes the task/information to the next one)
+
+**Summary**:
+In this paper author created four microservices and isntalled them in two Raspberry Pi to control a industrial processing mechine. The mechine has pump and water vulbs. Microservices collects information from the sensors connected to the vulbs and send to the Raspberry Pi. 
+
+**Comments**:
+- It is a static installation system. It doesn't dynamically deploy the service.
+- This is a good use case-based analysis. 
 
 
+### 19. Title: Beethoven: An Event-Driven Lightweight Platform for Microservice Orchestration
+**Summary**: This paper proposes a platform called Beethoven for rochestration. When orchestrating microservice there are challenges related to scaling and communication between each microservices. 
 
 
+## Date: 18.04.25
+### 20. Title: A systematic mapping study in microservice architecture.
+**Summary**: This paper is a review articles that connect many papers related to microservices. There are some papers which evaluation types, others are solution, validation experience report and opinior types papers. 
+
+### 21. Title: The nanoservices framework: co-locating microservices in the cloud edge continuum.
+**Summary**: This paper introduces a framework on how to combine multiple microservices to reduce the overall application size. It makes the microservices lightweight. Authors used golang to code the framework which automatically take care of creating nanoservices out of microservices.
+
+**Comments**:
+The name should be microservice because it is just a group of microservices.
+
+### 22. Title: A cloud native approach for orchestrating 6G-enabled services at the computing continuum.
+**Notes**:
+- K3, K8 cluster:
+- SLO: service level objectives
+- Multicluster deployment: centralized approach. Technologies should have access to the resources regardless of their owner.
+- Federated deployment: Combining resources from different ownership.
+- There are three types of resource management: 1. Centralized (One central server keeps track of the servers) 2. Hierarchical
+
+**Testbed**:
+- Two OpenStack VMs in two Intel Xeon Silver 4110 bare metal servers. One server consists of 16 vCPU, 16GiB RAM. Second k3 cluster is consist of 4 vCPU and 8GiB RAM. Karmada management system was used to coordinate between clusters. Prometheus was used to get the realtime data about the server. 
+
+**Summary**:
+Author proposed an architecture which depicts how a multicluster could be managed and orchestrated based on dynamic requirements. Author used reinforcement learning to translate the service intent into planned implementation.
+
+**Comments**:
+- This is part of a big project. Project links: [Application](https://gitlab.com/netmode/6g-latency-sensitive-service), [Orchestration](https://gitlab.com/netmode/hexa-service-orchestration)
+- This is a project based report.
 
 
+### 23. Title: Enhanced Particle Swarm Optimisation and Multi-Objective Optimization for the Orchestration of Edge Cloud Clusters
+**Notes**:
+- Swarm:
+- Swarm intelligence
+- Particle swarm optimization
+- Multi-object optimization:
+
+**Summary**:
+This paper uses a particle swarm intelligence algorithm with multi-object optimization for offloading and load balancing. Avoid centralized control.
+
+**Comments**:
+- Hard to understand. A lot of algorithms. Short paper.
+- It was a Java-based implementation.
+- Algorithm-based paper. No implementation architecture. No testbed description.
+- Everything happens within the cloud. No edge orchestration.
 
 
+### 24. Title: 
+**Notes**:
+- Tool used: Personal windows PC, VM, Mininet, SDN (Opendaylight), Kubernetes, 
+
+**Summary**:
 
 
-
-
-
-
-
-
-
-
-
+**Comments**:
 
 
 
